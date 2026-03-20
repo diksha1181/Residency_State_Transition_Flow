@@ -9,7 +9,7 @@ class ThirdPageDraftObjects:
     Date_Select = (By.XPATH, "//button[normalize-space()='Select']")
     until_date = (By.CSS_SELECTOR,"[data-test-id='btn-date-picker-open-until-date-accommodation-dates-and-guest-type-stay-contract-form']")
     initial_bed = (By.XPATH,"//h6[normalize-space()='BED-IS-002-A']")
-    secondary_bed = (By.XPATH,"//h6[normalize-space()='BED-SS-002-A']")
+    secondary_bed = (By.XPATH,"//h6[normalize-space()='BED-SS-002-B']")
     continue_btn = (By.CSS_SELECTOR,"[data-test-id='text-next-desktop-navigation-footer']")
  
 
