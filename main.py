@@ -63,7 +63,7 @@ def test_third_page_draft():
 def test_dashboard():
     dashboard_processes.run_dash()
 
-def test_draft_to_Ip():
+def test_state_change():
     StateChange_processes.run_state()
 
 
